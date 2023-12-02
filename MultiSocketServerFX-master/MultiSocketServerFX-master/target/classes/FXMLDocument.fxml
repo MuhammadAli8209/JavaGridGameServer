@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.ListView?>
+<?import javafx.scene.control.ScrollPane?>
+<?import javafx.scene.control.Tab?>
+<?import javafx.scene.control.TabPane?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.GridPane?>
+
+<ScrollPane xmlns="http://javafx.com/javafx/18" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.jtconnors.multisocketserverfx.FXMLDocumentController">
+  <content>
+    <AnchorPane minHeight="0.0" minWidth="0.0" onKeyPressed="#move">
+         <children>
+            <Button fx:id="connectButton" layoutX="249.0" layoutY="29.0" mnemonicParsing="false" onAction="#handleConnectButton" text="Connect" />
+            <Button fx:id="disconnectButton" layoutX="332.0" layoutY="29.0" mnemonicParsing="false" onAction="#handleDisconnectButton" text="Disconnect" />
+            <Label fx:id="connectionsLabel" layoutX="287.0" layoutY="64.0" text="0 connections" />
+            <Label layoutX="496.0" layoutY="33.0" text="Port:" />
+            <TextField fx:id="portTextField" layoutX="528.0" layoutY="29.0" minWidth="-Infinity" prefHeight="25.0" prefWidth="48.0" text="2015" />
+            <GridPane fx:id="gPane" layoutX="32.0" layoutY="292.0" prefHeight="47.0" prefWidth="67.0" />
+            <Button layoutX="79.0" layoutY="38.0" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" mnemonicParsing="false" onAction="#readybutton" text="Ready" />
+            <Label fx:id="readylbl" layoutX="29.0" layoutY="42.0" text="Ready?" />
+            <TextField fx:id="txtnamebox" layoutX="16.0" layoutY="7.0" promptText="Username:" text="serverperson" />
+            <Button fx:id="startbtn" layoutX="428.0" layoutY="82.0" mnemonicParsing="false" onAction="#startgame" text="Start" visible="false" />
+            <Label fx:id="lblsecs" layoutX="65.0" layoutY="95.0" text="Label" />
+            <Label layoutX="985.0" layoutY="21.0" text="Shop" />
+            <TabPane layoutX="870.0" layoutY="42.0" prefHeight="236.0" prefWidth="276.0" tabClosingPolicy="UNAVAILABLE">
+              <tabs>
+                <Tab text="Items">
+                  <content>
+                    <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="180.0" prefWidth="200.0">
+                           <children>
+                              <ListView fx:id="itemlist" layoutY="-1.0" onMouseClicked="#itemlistselected" prefHeight="211.0" prefWidth="270.0" />
+                           </children>
+                        </AnchorPane>
+                  </content>
+                </Tab>
+                <Tab text="Armor">
+                  <content>
+                    <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="180.0" prefWidth="200.0">
+                           <children>
+                              <ListView fx:id="armorlist" layoutY="-3.0" onMouseClicked="#armorlistselected" prefHeight="215.0" prefWidth="273.0" />
+                           </children>
+                        </AnchorPane>
+                  </content>
+                </Tab>
+                  <Tab text="Weapons">
+                     <content>
+                        <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="180.0" prefWidth="200.0">
+                           <children>
+                              <ListView fx:id="weaponslist" layoutY="-3.0" onMouseClicked="#weaponslistselected" prefHeight="215.0" prefWidth="273.0" />
+                           </children>
+                        </AnchorPane>
+                     </content>
+                  </Tab>
+                  <Tab text="Factory Upgrades">
+                     <content>
+                        <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="180.0" prefWidth="200.0">
+                           <children>
+                              <ListView fx:id="factoryupglist" layoutY="-3.0" onMouseClicked="#factorylistselected" prefHeight="215.0" prefWidth="273.0" />
+                           </children>
+                        </AnchorPane>
+                     </content>
+                  </Tab>
+              </tabs>
+            </TabPane>
+            <TabPane layoutX="594.0" layoutY="42.0" prefHeight="236.0" prefWidth="270.0" tabClosingPolicy="UNAVAILABLE">
+               <tabs>
+                  <Tab text="Player Inventory">
+                     <content>
+                        <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="180.0" prefWidth="200.0">
+                           <children>
+                              <ListView fx:id="playerinventorylist" layoutY="-1.0" onMouseClicked="#selectheinventoryitem" prefHeight="211.0" prefWidth="270.0" />
+                           </children>
+                        </AnchorPane>
+                     </content>
+                  </Tab>
+                  <Tab text="Player Stats">
+                     <content>
+                        <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="180.0" prefWidth="200.0">
+                           <children>
+                              <ListView fx:id="playerstatslist" layoutY="-3.0" prefHeight="215.0" prefWidth="273.0" />
+                           </children>
+                        </AnchorPane>
+                     </content>
+                  </Tab>
+               </tabs>
+            </TabPane>
+            <Label layoutX="713.0" layoutY="21.0" text="Player" />
+            <Button layoutX="839.0" layoutY="9.0" mnemonicParsing="false" onAction="#buyitem" text="Buy" />
+            <Button fx:id="btnrestart" layoutX="166.0" layoutY="47.0" mnemonicParsing="false" onAction="#restart" text="Restart" visible="false" />
+         </children>
+         <padding>
+            <Insets bottom="15.0" />
+         </padding></AnchorPane>
+  </content>
+</ScrollPane>
