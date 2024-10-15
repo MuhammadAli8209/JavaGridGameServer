@@ -8,7 +8,7 @@ I coded mathematical concepts such as derivatives and minimizing displacement th
 ![image](https://github.com/user-attachments/assets/125d28d6-0f60-4034-bfa9-ea7397b07981)
 
 
-Everyone else needs to use the ClientServer Repo.
+Everyone else needs to use the ClientServer Repo (It is in my public repos).
 Make sure the projects run on the same LAN network.
 
 To Start: 
