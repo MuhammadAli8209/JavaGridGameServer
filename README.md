@@ -3,7 +3,7 @@ This is the Server Repository for a Battle Royale Inspired game made using Class
 This game has a very cool concept.
 You can play with as many people as you want, but there can only be one host and they need to use the Server Repository in order to host everyone.
 
-
+I coded mathematical concepts such as derivatives and minimizing displacement through slope reduction in order to optimize bullet paths for their trajectory.
 
 ![image](https://github.com/user-attachments/assets/125d28d6-0f60-4034-bfa9-ea7397b07981)
 
@@ -24,8 +24,9 @@ There are portals on the edges of the maps, you can travel through those portals
 There are also items that you can buy as powerups, I recommend you try them out yourself. 
 There are also item drops that appear which might have weapons, items or some powerups.
 
+Remember, you need to eliminate everyone else to win.
 ![image](https://github.com/user-attachments/assets/d2b89f4a-563e-4f79-97b1-32d9b40f27b1)
-This is also a good way to understand Latency, even if it exists for an instant.
+This is also a good way to understand Latency, even if it exists for an instant. 
 
 
 Controls: 
