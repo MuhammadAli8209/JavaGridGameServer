@@ -17,17 +17,18 @@ To Start:
   Once that is done, you will have started the game.
 
 Rules: 
-You are to eliminate other players using in game weapons that you can buy from the item shop.
 
-The Bullets bounce off of the map edges and the obstacles in the middle.
+- You are to eliminate other players using in game weapons that you can buy from the item shop.
 
-There are multiple types of weapons, they each have a different shooting pattern.
+- The Bullets bounce off of the map edges and the obstacles in the middle.
 
-There are portals on the edges of the maps, you can travel through those portals or shoot through them to make the bullets teleport.
+- There are multiple types of weapons, they each have a different shooting pattern.
 
-There are also items that you can buy as powerups, I recommend you try them out yourself.
+- There are portals on the edges of the maps, you can travel through those portals or shoot through them to make the bullets teleport.
 
-There are also item drops that appear which might have weapons, items or some powerups.
+- There are also items that you can buy as powerups, I recommend you try them out yourself.
+
+- There are also item drops that appear which might have weapons, items or some powerups.
 
 Remember, you need to eliminate everyone else to win.
 ![image](https://github.com/user-attachments/assets/d2b89f4a-563e-4f79-97b1-32d9b40f27b1)
