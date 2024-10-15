@@ -30,6 +30,8 @@ Rules:
 
 - There are also item drops that appear which might have weapons, items or some powerups.
 
+- Factories generate money for you to buy items and weapons in game.
+
 Remember, you need to eliminate everyone else to win.
 ![image](https://github.com/user-attachments/assets/d2b89f4a-563e-4f79-97b1-32d9b40f27b1)
 This is also a good way to understand Latency, even if it exists for an instant. 
