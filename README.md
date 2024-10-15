@@ -1,8 +1,15 @@
-This is the Server Repository for a Battle Royale Inspired game made using Classes, JavaFX, and 2D Arrays. It is one of my first coding projects that I think is worthy of showing others. 
-It is not the best game on the planet. However, it has a very cool concept. 
+This is the Server Repository for a Battle Royale Inspired game made using Classes, JavaFX, and 2D Arrays. It is a big coding project that I learned a lot from.
+
+This game has a very cool concept.
 You can play with as many people as you want, but there can only be one host and they need to use the Server Repository in order to host everyone.
+
+
+
+![image](https://github.com/user-attachments/assets/125d28d6-0f60-4034-bfa9-ea7397b07981)
+
+
 Everyone else needs to use the ClientServer Repo.
-Make sure the projects run on the same LAN network (Again, sorry for not using WiFi but I did try my best).
+Make sure the projects run on the same LAN network.
 
 To Start: 
   Hit connect on the Server and wait for everyone else to connect. 
@@ -17,6 +24,10 @@ There are portals on the edges of the maps, you can travel through those portals
 There are also items that you can buy as powerups, I recommend you try them out yourself. 
 There are also item drops that appear which might have weapons, items or some powerups.
 
+![image](https://github.com/user-attachments/assets/d2b89f4a-563e-4f79-97b1-32d9b40f27b1)
+This is also a good way to understand Latency, even if it exists for an instant.
+
+
 Controls: 
 W- Up 
 A- Left 
@@ -24,5 +35,7 @@ S- Right
 D- Down
 
 Note: I've changed some settings in the game (Respawn time and buying things) to speed up the process in order to test some things, however, you can easily change those settings. Have Fun!
+
+Credit - I am using SocketServer and SocketClient by jtconnors
 
 Thanks!
